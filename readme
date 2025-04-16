@@ -1,0 +1,65 @@
+# 🎧 GLADIA-BACKEND
+
+This is a Node.js + TypeScript application that allows users to upload audio files and transcribe them using the [Gladia API](https://gladia.io/).
+
+---
+
+## 🌐 Backend URL (Render)
+
+The backend is deployed and accessible at:
+
+👉 [https://audio-text-app.onrender.com]
+
+## 🚀 Getting Started
+
+Follow the steps below to run the project locally after cloning it.
+
+---
+
+## 1. Clone the Repository
+
+## 2. Install Dependencies
+
+npm install
+
+---
+
+## 3. Add Environment Variables
+
+Create a .env file in the root of the project and add the Environment variables:
+
+---
+
+## 4. Create Required Folders
+
+You must create the folder where uploaded audio files will be stored:
+
+tmp/uploads/recordings
+
+---
+
+## 5. Run the Server in Development
+
+To start the server in development mode, run:
+
+npm run dev
+
+---
+
+## 6. Access Uploaded Files
+
+Once an audio file is uploaded, it is stored in the folder:
+
+tmp/uploads/recordings
+
+So the uploaded files can be accessed at:
+
+Locally:
+http://localhost:5000/tmp/uploads/recordings/your-audio.wav
+
+On Render:
+https://audio-text-app.onrender.com/tmp/uploads/recordings/your-audio.wav
+
+## 7. Swagger API Docs
+
+http://localhost:5000/api-doc
